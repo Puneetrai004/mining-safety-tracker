@@ -148,7 +148,7 @@
 #         st.session_state.sensor_data = new_data
 #         st.session_state.historical_data = pd.concat([st.session_state.historical_data, new_data])
 #         st.session_state.last_update = datetime.now()
-#         st.experimental_rerun()
+#         st.rerun()
 
 # # Display current mine and last update time
 # st.sidebar.write(f"Current Mine: {selected_mine}")
@@ -774,7 +774,7 @@ if auto_refresh:
         time.sleep(1)          # Check every second if we need to update based on refresh interval
         time_diff = (datetime.now() - st.session_state.last_update).total_seconds()
         if time_diff > refresh_interval:
-            st.experimental_rerun()
+            st.rerun()
         time.sleep(1)
 
 # Historical data analysis section
