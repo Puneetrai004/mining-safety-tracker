@@ -1,19 +1,18 @@
-# 🎈 Blank app template
+# IoT-Based Mining Safety Tracking System
 
-A simple Streamlit app template for you to modify!
+A Streamlit application for real-time monitoring of mining conditions and worker safety using IoT sensor data.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Demo
 
-### How to run it on your own machine
+View the live demo: [Mining Safety Tracker on Streamlit Cloud](https://mining-safety-tracker.streamlit.app/)
 
-1. Install the requirements
+## Features
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+- Real-time monitoring of environmental conditions (temperature, humidity, gas levels)
+- Tracking of miners' locations and safety equipment status
+- Automatic alert generation for hazardous conditions
+- Interactive data visualization dashboards
+- Historical data analysis
 
-2. Run the app
+## Project Structure
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
